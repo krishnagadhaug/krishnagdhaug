@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" style="text-align:center;">
+        <p>
+            <label for="email">email</label>
+            <input type="text" id="feild1" onkeyup="return validateEMAIL()" placeholder="Enter your email id">
+            <span id="err1"></span>
+        </p>
+        <p>
+           <label for="">password</label>
+           <input type="password" id="feild2" onkeyup="return validatePASS()" placeholder="Enter your password">
+           <span id="err2"></span>
+           </p>
+        <p>
+            <label for="phone number">phone number</label>
+            <input type="text" id="feild3" onkeyup="return validatePHONENUMBER()" placeholder="Enter your phone number">
+            <span id="err3"></span>
+        </p>
+        <p>
+            <button onclick="return verify()">submit</button>
+        </p>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
+</body>
+</html>
